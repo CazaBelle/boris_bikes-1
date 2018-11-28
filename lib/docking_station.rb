@@ -1,5 +1,6 @@
 require_relative "./bike"
 class DockingStation
+  attr_reader :bikes
   def initialize(bike_number)
     @bikes = bike_number
   end
